@@ -16,14 +16,7 @@ public class Test {
         arr.add(4);
         arr.add(0);
        // Collections.sort(arr);
-      //  Collections.sort(arr,Collections.reverseOrder());
-        for(int i=0;i<=arr.size();i++)
-        {
-            if(arr.get(i)>=arr.get(i+1))
-            {
-                temp=arr.get(i);
-            }
-        }
+        Collections.sort(arr,Collections.reverseOrder());
 
         System.out.println(arr);
     }
