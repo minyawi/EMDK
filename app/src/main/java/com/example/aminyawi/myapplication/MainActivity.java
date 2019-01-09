@@ -776,5 +776,6 @@ public class MainActivity extends Activity implements EMDKListener, DataListener
             new AsyncStatusUpdate().execute(status);
         }
     }
+
 }
 
